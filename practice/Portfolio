@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <header>
+    <h2>This is my Portfolio<br></h2>
+    <h1> My Name Is Harsh Patial<br></h1>
+    <P>I LOVE TO LEARN :)</P>
+    <img src="pic.jpg" alt="My photo" height="100px" width="100px"> 
+    </header>
+    <hr>
+    <ol>
+        <section>
+        <li><h2>MY EDUCATION</h2></li>
+            <ul>
+                <li><b>Class 1oth(2020): 82%</b></li>
+                <li><b>Class 12th(2022): 84%</b></li>
+                <li><b>JEE(2022):82.4%ile</b></li>
+                <li><b>JEE(2023):90.1%ile</b></li>
+            </ul> 
+            <hr>
+        </section>
+        <section>
+        <li><h2>MY SKILLS</h2></li>
+        <ul>
+            <p><b>Coding Language:</b></p>
+                <ul>
+                    <li>C++</li>
+                    <li>java</li>
+                    <li>Python </li>
+                    <li>HTML, CSS, JS</li>
+                </ul> 
+        </ul>
+        <hr>
+        </section>
+        <section>
+        <li><h2>Hobbies/interest:</h2></li>
+        <ul>
+            <li>Swimming</li>
+            <li>Reading</li>
+            <li>Running</li>
+            <li>Calesthenics</li>
+            <li>Psychology and human behaviour</li>
+        </ul>
+        </section>
+    <hr>
+    <section>
+    <h2><li>Achivements:</h2></li>
+    <ul>
+        <li>State lvl champion science</li>
+        <li>8.9 CGPA</li>
+    </ul>
+    </section>
+    <footer>
+        <li><h2>Contact info</h2></li>
+            <ul>
+                <p>Number:9779971285</p>
+                <p>Email:harsh2004patial@gmail.com</p>
+                <p><a href="https://www.linkedin.com/in/harsh-patial-86b98a332/">LinkedIN</a></p>
+            </ul>
+    </footer>
+</ol>
+<p>Made with ♥ &hearts; by Harsh</p>   
+<p>Copyright symbol: &copy;</p> 
+<p>trademark symbol: &reg;</p>   
+
+    
+</body>
+</html>

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button> hello</button>
+    <form action="/action">
+        <div>
+        <label for="Username">Enter Username:</label>
+        <input type="text" placeholder="Enter Username" id="Username" name="User>
+        </div>
+        <div>
+        <label for="password">Enter Password:</label>
+        <input type="Password" placeholder="enter Password" id="password" name="pass">
+        </div>
+        <div>
+        <label for="number">Enter number:</label>
+        <input type="number" placeholder="enter number" id="number" name="num">
+        </div>
+        <div>
+            <label>
+                Time  
+                <input type="time">
+            </label>
+        </div>
+        Button
+        <input type="button" name="button">
+        <br>
+        date 
+        <input type="date">
+        <br>
+        date 2
+        <input type="datetime-local">
+        <br>
+        Email
+        <input type="email">
+        <br>
+        file 
+        <input type="file">
+        <br>
+        Hidden 
+        <input type="hidden">
+        <br>
+        Image
+        <input type="image">
+        <br>
+        Range
+        <input type="range">
+        <br>
+        submit 
+        <input type="submit">
+        <br>
+        Reset
+        <input type="reset">
+        <br>
+        Search 
+        <input type="search">
+        <br>
+        date-time 
+        <input type="datetime">
+        <br>
+        url 
+        <input type="url">
+        <br>
+        <hr>
+        <button type="button">Submit</button>
+        <button type="submit">Log in</button>
+        <button type="reset">reset</button>
+        <!--File:///action? means that this button will take us to the file we have created
+        or default behaviour is to submit this form to that file/action-->
+        <!--use of button outside doesnt do any specific work
+        name-value pair {name= the name we give during coding (eg name="user") and value is the input we do in the empty box during run time} 
+        this thing is also shown in the url and is very dangerous because password is shown in the url we will learn to hide it in future like ;
+        log in in insta and facebook web data is send using get request and it is hided using post request-->
+        <input type="button">
+        <input type="button" value="click me">
+        <input type="submit">
+        <input type="submit" value="submit me" >
+        <hr>
+    </form>
+</body>
+</html>
+
+<!--CHECKBOX-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/server">
+        <input type="checkbox" name="age" id="age" checked/>
+        <!--by befault checked chahiye (in the box than use "checked/")-->
+        <label for="age">I am 18+</label>
+        <button>Submit button </button>
+        <!--if checkbox is ticked and submitted than in url its shown "age=on" else "age=off"-->
+        <hr>
+    </form>
+</body>
+</html>
+
+<!--Radio button-->
+<!--mcq type single option correct from multiple -->
+<!--eg: yes/no male/female/other true/false -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div>
+            <input type="radio" name="fruit" id="apple" value="apple"/>
+            <label for="apple">Apple</label>
+            <input type="radio" name="fruit" id="mango" value="mango"/>
+            <label for="mango">mango</label>
+            <input type="radio" name="fruit" id="orange" value="orange"/>
+            <label for="orange">orange</label>
+        <!--name = value {name=fruit and value from label
+         if name same than only name should be same / if value is needed to pass than value needed to be added}-->
+        </div>
+        <br>
+        <hr>
+        <div>
+            Choose your subjects:
+            <input type="checkbox" id="math" name="sub" value="math"/>
+            <label for="math">math</label>
+            <input type="checkbox" id="science" name="sub" value="sci"/>
+            <label for="science">science</label>
+            <input type="checkbox" id="english" name="sub" value="eng"/>
+            <label for="english">english</label>
+        </div>
+        <button>submit</button> 
+        <hr> 
+        <!--Checkbox: even after groupping multiple options can be selected -->
+        <!--radio:after grouping multiple options only one can be selected -->
+
+        <!--Drop down-->
+        <div>
+            Choose your profession
+            <select name="profession" id="profession">
+                <option>Select your option </option>
+                <option value="stu">Student</option>
+                <option value="dev">developer</option>
+                <option value="o">other</option>
+                <!-- student is selected from start then use -->
+                <!--<option value="stu" selected >Student</option>-->
+            </select>
+        </div>
+        <button>Submit</button>
+        <hr>
+
+        <!--Range Element -->
+        <div>
+            <input type="range" id="volume" min="0" max="100" name="vol"/>
+            <label for="volume">select your volume level </label>
+            <button>submit</button>
+        </div>
+         <!--these vol lvl are shown in url uusing name attribute-->
+            <!--for keeing the step ie increment in value tha use -->
+            <!--<input type="range" id="volume" min="0" max="100" name="vol" step="10" />-->
+            <!--keeping default value as 50 than use -->
+            <!--<input type="range" id="volume" min="0" max="100" name="vol" value="50" />-->
+        <hr>
+        <br>
+
+        <!--Text area element-->
+        <div>
+            <label="feedback">Please provide your valueable feedback:</label>
+            <textarea id="feedback" placeholder="write your feedback here"></textarea>
+            <button>Submit</button>
+            <!--basic way :<textarea></textarea> -->
+            <!--for showing in url use name attribute-->
+            <!--<textarea id="feedback" name="feedback"></textarea>-->
+            <!--default size of textarea is 2 rows and 10 column-->
+            <!--<textarea id="feedback" name="feedback" rows="5" cols="100"></textarea>-->
+        </div>
+
+    </form> 
+</body>
+</html>

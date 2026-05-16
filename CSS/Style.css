@@ -1,0 +1,49 @@
+
+h1{
+    color: red;
+    background-color: blue;
+}
+h2{
+    /* text-align: right/left/center/end/start; */
+    /* left=start and right=end */
+    text-align:left;
+    border: solid;
+    width: 50%;
+
+    /* font-weight: normal/bold/100/200/900/lighter/bolder; */
+    font-weight: bolder;
+    /* text-decoration: underline/overline/line-through; */
+    text-decoration: underline;
+    text-decoration-color:blue ;
+    text-decoration: blue underline  ;
+    text-decoration-style: wavy ;
+    /* text-decoration: wavy/dashed/dotted/double/solid overline/underline/line-through; */
+    line-height: 0.5;
+    line-height: 2 ;
+    letter-spacing: 5px;
+    font-size: 30px;
+    font-family: arial;
+    font-family: fantasy;
+    font-family: avant garde, didot, sans-serif;
+    /* family name se v kr sakte h eg in fantasy it takes default any style (papyrus/copperplate) */
+    /* if some font style is not availabe on that browser then default font style is taken from that browser(arial/times new roman)*/
+    /* cssfontstack.com -- family names  sans-serif  serif monospaced fantacy scrpit * /
+}
+    
+
+
+p{
+    color: black;
+    color: #000000;
+    color:#000;
+    color:#fff;
+    color:#0000ff;
+    color:rgb(0,0,0);
+    color:rgb(0,0,255);
+    text-align: justify;
+    /* extra spaces for allignment of horizontal left and right boundary*/
+}
+
+button{
+    color: aquamarine; background-color: yellow ;
+}

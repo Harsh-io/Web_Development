@@ -1,0 +1,60 @@
+/* set by default if not given */
+div{
+    height: 200px;
+    width: 1000px;
+    background-color: pink;
+    border-width: 5px;
+    border-style: solid;
+    border-color: blue ;
+} 
+
+h1{
+    border-width: 2px;
+    border-style:dashed;
+    border-color:chartreuse;
+}
+
+/*BORDER SHORTHAND 
+border{width-styl-color;}*/
+/*Border Sides 
+border-left/right/top/bottom;
+*/
+
+div{border:5px solid black;
+    border-left-color: aqua;
+    border-left-style:dashed;
+    border-top: 5px dashed blueviolet;
+    border-radius: 5px;
+    /* border-radius: 50%; */
+    /*used to round the edges of an ele outer birder
+    also to create circle height=width*/
+    border-top-right-radius:100px ; 
+    border-bottom-left-radius:100px ;
+}
+
+div{
+    /* padding-top/bottom/left/right: 50px ; */
+    padding-top: 50px;
+}
+
+button{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: yellow;
+}
+
+/* padding shorthand
+
+#1 padding:50px;
+applies to all 4 sides
+
+#2 padding:1px 2px;
+top and bottom / left and right
+
+#3 padding; 1px 2px 3px;
+top/left and right/bottom
+
+#4 padding: 1px 0px 3px 4px
+top/right/bottom/left (clockwise) */

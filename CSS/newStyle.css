@@ -1,0 +1,111 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1,h3{
+    color: #b92b27;
+}
+
+#login{
+    background-color: white;
+}
+
+#signup{
+    background-color: #b92b27;
+}
+
+.upvote{
+    background-color: green;
+    color: aliceblue;
+}
+
+/* descendant selector */
+/* anchor tag */
+p a{
+    color: purple;
+    background-color: yellow;
+}
+
+nav ul li a{
+    color: hotpink;
+}
+
+p+h3{
+    text-decoration: underline gray;
+}
+
+.uppvote + button{
+    background-color:cornflowerblue;
+}
+
+/* chils selector*/
+div > input{
+    background-color: #b92b27;
+}
+/* descendant selector */
+nav a{
+    color: blueviolet;
+}
+/*Attribute selector
+input[attr='value']{}
+*/
+input[type="text"]{
+    color: aquamarine;
+}
+
+
+
+/*doubt
+input[id="log in"]{
+    background-color: rgb(0, 0, 255);
+ 
+input[class]{
+    color:chocolate;
+}
+}*/
+
+/*Psuedo class*/
+button:hover{
+    background-color: black;
+    color: wheat;
+}
+
+h3:hover{
+    text-decoration: overline;
+}
+
+button:active{
+    background-color:brown;
+    color: aquamarine;
+}
+
+p:active{
+    font-weight: bold;
+    color: green;
+}
+
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+}
+
+.follow:nth-last-of-type(1n){
+    background-color:burlywood;
+}
+
+div:nth-last-of-type(2n){
+    background-color: aqua;
+}
+
+h1::first-letter{
+    color: black;
+}
+
+p::first-line{
+    color: blue;
+}
+
+p::selection{
+    background-color: yellow !important;
+}
+
